@@ -12,7 +12,6 @@
 		6A8AB0012343648E005A5C02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A8AB0002343648E005A5C02 /* Assets.xcassets */; };
 		6A8AB0042343648E005A5C02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A8AB0022343648E005A5C02 /* LaunchScreen.storyboard */; };
 		6A8AB00F2343648E005A5C02 /* StarWarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8AB00E2343648E005A5C02 /* StarWarsTests.swift */; };
-		6A8AB02023442935005A5C02 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8AB01F23442935005A5C02 /* Category.swift */; };
 		70386DD724D9E6A4003F0768 /* CategoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386DC124D9E6A4003F0768 /* CategoryManager.swift */; };
 		70386DD824D9E6A4003F0768 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386DC224D9E6A4003F0768 /* CategoryModel.swift */; };
 		70386DD924D9E6A4003F0768 /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386DC324D9E6A4003F0768 /* CategoryViewModel.swift */; };
@@ -38,6 +37,14 @@
 		70386DF724D9E724003F0768 /* BaseAppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386DF424D9E724003F0768 /* BaseAppRouter.swift */; };
 		70386DF824D9E724003F0768 /* AppRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386DF524D9E724003F0768 /* AppRoute.swift */; };
 		70386DF924D9E724003F0768 /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386DF624D9E724003F0768 /* Module.swift */; };
+		70386E0824D9E787003F0768 /* SpeciesEntityResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386DFB24D9E787003F0768 /* SpeciesEntityResults.swift */; };
+		70386E0924D9E787003F0768 /* VehicleEntityResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386DFD24D9E787003F0768 /* VehicleEntityResults.swift */; };
+		70386E0A24D9E787003F0768 /* BaseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386DFE24D9E787003F0768 /* BaseEntity.swift */; };
+		70386E0B24D9E787003F0768 /* StarshipEntityResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386E0024D9E787003F0768 /* StarshipEntityResults.swift */; };
+		70386E0C24D9E787003F0768 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386E0124D9E787003F0768 /* Category.swift */; };
+		70386E0D24D9E787003F0768 /* FilmEntityResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386E0324D9E787003F0768 /* FilmEntityResults.swift */; };
+		70386E0E24D9E787003F0768 /* PeopleEntityResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386E0524D9E787003F0768 /* PeopleEntityResults.swift */; };
+		70386E0F24D9E787003F0768 /* PlanetEntityResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386E0724D9E787003F0768 /* PlanetEntityResults.swift */; };
 		890D67F1B476EEBD81D957A6 /* Pods_StarWars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B45BCA5D93F184F6E4C42E78 /* Pods_StarWars.framework */; };
 		9451B58CA8AE0955EC53AE85 /* Pods_StarWarsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CF943C81809CA8AA951B21 /* Pods_StarWarsTests.framework */; };
 /* End PBXBuildFile section */
@@ -65,7 +72,6 @@
 		6A8AB00A2343648E005A5C02 /* StarWarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarWarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A8AB00E2343648E005A5C02 /* StarWarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsTests.swift; sourceTree = "<group>"; };
 		6A8AB0102343648E005A5C02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6A8AB01F23442935005A5C02 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		70386DC124D9E6A4003F0768 /* CategoryManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryManager.swift; sourceTree = "<group>"; };
 		70386DC224D9E6A4003F0768 /* CategoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
 		70386DC324D9E6A4003F0768 /* CategoryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewModel.swift; sourceTree = "<group>"; };
@@ -91,6 +97,14 @@
 		70386DF424D9E724003F0768 /* BaseAppRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseAppRouter.swift; sourceTree = "<group>"; };
 		70386DF524D9E724003F0768 /* AppRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppRoute.swift; sourceTree = "<group>"; };
 		70386DF624D9E724003F0768 /* Module.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Module.swift; sourceTree = "<group>"; };
+		70386DFB24D9E787003F0768 /* SpeciesEntityResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeciesEntityResults.swift; sourceTree = "<group>"; };
+		70386DFD24D9E787003F0768 /* VehicleEntityResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleEntityResults.swift; sourceTree = "<group>"; };
+		70386DFE24D9E787003F0768 /* BaseEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseEntity.swift; sourceTree = "<group>"; };
+		70386E0024D9E787003F0768 /* StarshipEntityResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarshipEntityResults.swift; sourceTree = "<group>"; };
+		70386E0124D9E787003F0768 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		70386E0324D9E787003F0768 /* FilmEntityResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmEntityResults.swift; sourceTree = "<group>"; };
+		70386E0524D9E787003F0768 /* PeopleEntityResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleEntityResults.swift; sourceTree = "<group>"; };
+		70386E0724D9E787003F0768 /* PlanetEntityResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetEntityResults.swift; sourceTree = "<group>"; };
 		B45BCA5D93F184F6E4C42E78 /* Pods_StarWars.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarWars.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9CF943C81809CA8AA951B21 /* Pods_StarWarsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarWarsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE5ECB43C1264B2D35950C5 /* Pods-StarWars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWars.debug.xcconfig"; path = "Target Support Files/Pods-StarWars/Pods-StarWars.debug.xcconfig"; sourceTree = "<group>"; };
@@ -149,7 +163,6 @@
 			isa = PBXGroup;
 			children = (
 				70386DBB24D9E65D003F0768 /* Apps */,
-				6A8AB01E2344292A005A5C02 /* Models */,
 				6A8AAFF92343648C005A5C02 /* AppDelegate.swift */,
 				6A8AB0002343648E005A5C02 /* Assets.xcassets */,
 				6A8AB0022343648E005A5C02 /* LaunchScreen.storyboard */,
@@ -170,7 +183,14 @@
 		6A8AB01E2344292A005A5C02 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				6A8AB01F23442935005A5C02 /* Category.swift */,
+				70386DFE24D9E787003F0768 /* BaseEntity.swift */,
+				70386E0124D9E787003F0768 /* Category.swift */,
+				70386E0224D9E787003F0768 /* Film */,
+				70386E0424D9E787003F0768 /* People */,
+				70386E0624D9E787003F0768 /* Planet */,
+				70386DFA24D9E787003F0768 /* Species */,
+				70386DFF24D9E787003F0768 /* Starship */,
+				70386DFC24D9E787003F0768 /* Vehicle */,
 				6A47D292234817B700277F99 /* APIResponses.swift */,
 			);
 			path = Models;
@@ -188,6 +208,7 @@
 		70386DBC24D9E663003F0768 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				6A8AB01E2344292A005A5C02 /* Models */,
 				70386DF324D9E724003F0768 /* AppRouter */,
 				70386DEC24D9E717003F0768 /* Extensions */,
 				70386DE924D9E6EE003F0768 /* Services */,
@@ -286,6 +307,54 @@
 				70386DF624D9E724003F0768 /* Module.swift */,
 			);
 			path = AppRouter;
+			sourceTree = "<group>";
+		};
+		70386DFA24D9E787003F0768 /* Species */ = {
+			isa = PBXGroup;
+			children = (
+				70386DFB24D9E787003F0768 /* SpeciesEntityResults.swift */,
+			);
+			path = Species;
+			sourceTree = "<group>";
+		};
+		70386DFC24D9E787003F0768 /* Vehicle */ = {
+			isa = PBXGroup;
+			children = (
+				70386DFD24D9E787003F0768 /* VehicleEntityResults.swift */,
+			);
+			path = Vehicle;
+			sourceTree = "<group>";
+		};
+		70386DFF24D9E787003F0768 /* Starship */ = {
+			isa = PBXGroup;
+			children = (
+				70386E0024D9E787003F0768 /* StarshipEntityResults.swift */,
+			);
+			path = Starship;
+			sourceTree = "<group>";
+		};
+		70386E0224D9E787003F0768 /* Film */ = {
+			isa = PBXGroup;
+			children = (
+				70386E0324D9E787003F0768 /* FilmEntityResults.swift */,
+			);
+			path = Film;
+			sourceTree = "<group>";
+		};
+		70386E0424D9E787003F0768 /* People */ = {
+			isa = PBXGroup;
+			children = (
+				70386E0524D9E787003F0768 /* PeopleEntityResults.swift */,
+			);
+			path = People;
+			sourceTree = "<group>";
+		};
+		70386E0624D9E787003F0768 /* Planet */ = {
+			isa = PBXGroup;
+			children = (
+				70386E0724D9E787003F0768 /* PlanetEntityResults.swift */,
+			);
+			path = Planet;
 			sourceTree = "<group>";
 		};
 		7A91F55BF6082F03D655E205 /* Pods */ = {
@@ -470,7 +539,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70386E0924D9E787003F0768 /* VehicleEntityResults.swift in Sources */,
+				70386E0F24D9E787003F0768 /* PlanetEntityResults.swift in Sources */,
+				70386E0824D9E787003F0768 /* SpeciesEntityResults.swift in Sources */,
 				70386DE724D9E6A4003F0768 /* HomeManager.swift in Sources */,
+				70386E0D24D9E787003F0768 /* FilmEntityResults.swift in Sources */,
+				70386E0E24D9E787003F0768 /* PeopleEntityResults.swift in Sources */,
 				6A47D293234817B700277F99 /* APIResponses.swift in Sources */,
 				70386DF024D9E717003F0768 /* Extension+Bundle.swift in Sources */,
 				70386DE024D9E6A4003F0768 /* HomeViewModel.swift in Sources */,
@@ -478,7 +552,9 @@
 				70386DF924D9E724003F0768 /* Module.swift in Sources */,
 				70386DD724D9E6A4003F0768 /* CategoryManager.swift in Sources */,
 				6A8AAFFA2343648C005A5C02 /* AppDelegate.swift in Sources */,
+				70386E0B24D9E787003F0768 /* StarshipEntityResults.swift in Sources */,
 				70386DEB24D9E6EE003F0768 /* ApiServices.swift in Sources */,
+				70386E0A24D9E787003F0768 /* BaseEntity.swift in Sources */,
 				70386DF124D9E717003F0768 /* Extension+UIViewController.swift in Sources */,
 				70386DDC24D9E6A4003F0768 /* CategoryModule.swift in Sources */,
 				70386DD824D9E6A4003F0768 /* CategoryModel.swift in Sources */,
@@ -490,10 +566,10 @@
 				70386DDD24D9E6A4003F0768 /* CategoryViewController.swift in Sources */,
 				70386DE824D9E6A4003F0768 /* HomeModule.swift in Sources */,
 				70386DDE24D9E6A4003F0768 /* CategoryRouter.swift in Sources */,
-				6A8AB02023442935005A5C02 /* Category.swift in Sources */,
 				70386DF824D9E724003F0768 /* AppRoute.swift in Sources */,
 				70386DF224D9E717003F0768 /* Extension+UIApplication.swift in Sources */,
 				70386DE224D9E6A4003F0768 /* HomeViewController.swift in Sources */,
+				70386E0C24D9E787003F0768 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
