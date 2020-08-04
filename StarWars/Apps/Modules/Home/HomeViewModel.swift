@@ -37,9 +37,6 @@ extension IHomeViewModelType {
 
 class HomeViewModel: IHomeViewModelType {
     private var parameters: [String: Any]?
-    private var manager: IHomeManager {
-        return HomeManager()
-    }
 
     init(parameters: [String: Any]?) {
         self.parameters = parameters
@@ -55,12 +52,4 @@ class HomeViewModel: IHomeViewModelType {
             .vehicles
         ]
     }
-}
-
-extension HomeViewModel {
-    // do someting...
-}
-
-extension HomeViewModel {
-    // do someting...
 }

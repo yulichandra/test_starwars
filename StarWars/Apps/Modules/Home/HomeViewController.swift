@@ -21,11 +21,6 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupTableView()
-        setupBinding()
-    }
-
-    private func setupBinding() {
-        // do someting...
     }
 
     private func setupTableView() {

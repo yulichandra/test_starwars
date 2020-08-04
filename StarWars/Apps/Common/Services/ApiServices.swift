@@ -25,7 +25,7 @@ extension IApiClient {
 }
 
 enum ApiService: IApiClient {
-    case categories(model: HomeModel.Request)
+    case categories
     case category(model: CategoryModel.Request)
 
     var path: String {

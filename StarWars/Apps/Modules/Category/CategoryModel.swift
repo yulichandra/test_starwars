@@ -14,19 +14,10 @@ import UIKit
 struct CategoryModel {	
 	struct Request {
         var urlPath: String
-
-		var parameters: [String: Any]? {
-			// do someting...
-			return nil
-		}
 	}
 
     struct Response {    
         var title: String
         var subtitle: String
-	}
-
-	struct ViewModel {
-		// do someting...
 	}
 }

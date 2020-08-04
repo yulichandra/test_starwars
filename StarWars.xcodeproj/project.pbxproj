@@ -27,8 +27,6 @@
 		70386DE324D9E6A4003F0768 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386DD124D9E6A4003F0768 /* HomeTableViewCell.swift */; };
 		70386DE424D9E6A4003F0768 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70386DD224D9E6A4003F0768 /* HomeTableViewCell.xib */; };
 		70386DE524D9E6A4003F0768 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386DD324D9E6A4003F0768 /* HomeRouter.swift */; };
-		70386DE624D9E6A4003F0768 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386DD424D9E6A4003F0768 /* HomeModel.swift */; };
-		70386DE724D9E6A4003F0768 /* HomeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386DD524D9E6A4003F0768 /* HomeManager.swift */; };
 		70386DE824D9E6A4003F0768 /* HomeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386DD624D9E6A4003F0768 /* HomeModule.swift */; };
 		70386DEB24D9E6EE003F0768 /* ApiServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386DEA24D9E6EE003F0768 /* ApiServices.swift */; };
 		70386DF024D9E717003F0768 /* Extension+Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386DED24D9E717003F0768 /* Extension+Bundle.swift */; };
@@ -88,8 +86,6 @@
 		70386DD124D9E6A4003F0768 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		70386DD224D9E6A4003F0768 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
 		70386DD324D9E6A4003F0768 /* HomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
-		70386DD424D9E6A4003F0768 /* HomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
-		70386DD524D9E6A4003F0768 /* HomeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeManager.swift; sourceTree = "<group>"; };
 		70386DD624D9E6A4003F0768 /* HomeModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModule.swift; sourceTree = "<group>"; };
 		70386DEA24D9E6EE003F0768 /* ApiServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiServices.swift; sourceTree = "<group>"; };
 		70386DED24D9E717003F0768 /* Extension+Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+Bundle.swift"; sourceTree = "<group>"; };
@@ -263,8 +259,6 @@
 		70386DCC24D9E6A4003F0768 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				70386DD524D9E6A4003F0768 /* HomeManager.swift */,
-				70386DD424D9E6A4003F0768 /* HomeModel.swift */,
 				70386DD624D9E6A4003F0768 /* HomeModule.swift */,
 				70386DD324D9E6A4003F0768 /* HomeRouter.swift */,
 				70386DCF24D9E6A4003F0768 /* HomeViewController.swift */,
@@ -553,7 +547,6 @@
 				70386E0924D9E787003F0768 /* VehicleEntityResults.swift in Sources */,
 				70386E0F24D9E787003F0768 /* PlanetEntityResults.swift in Sources */,
 				70386E0824D9E787003F0768 /* SpeciesEntityResults.swift in Sources */,
-				70386DE724D9E6A4003F0768 /* HomeManager.swift in Sources */,
 				70386E0D24D9E787003F0768 /* FilmEntityResults.swift in Sources */,
 				70386E1224D9E7B8003F0768 /* AllProduct.swift in Sources */,
 				70386E0E24D9E787003F0768 /* PeopleEntityResults.swift in Sources */,
@@ -571,7 +564,6 @@
 				70386DDC24D9E6A4003F0768 /* CategoryModule.swift in Sources */,
 				70386DD824D9E6A4003F0768 /* CategoryModel.swift in Sources */,
 				70386DDA24D9E6A4003F0768 /* CategoryTableViewCell.swift in Sources */,
-				70386DE624D9E6A4003F0768 /* HomeModel.swift in Sources */,
 				70386DF724D9E724003F0768 /* BaseAppRouter.swift in Sources */,
 				70386DD924D9E6A4003F0768 /* CategoryViewModel.swift in Sources */,
 				70386DE524D9E6A4003F0768 /* HomeRouter.swift in Sources */,
