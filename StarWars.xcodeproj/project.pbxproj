@@ -201,8 +201,8 @@
 		70386DBB24D9E65D003F0768 /* Apps */ = {
 			isa = PBXGroup;
 			children = (
-				70386DBD24D9E66A003F0768 /* Modules */,
 				70386DBC24D9E663003F0768 /* Common */,
+				70386DBD24D9E66A003F0768 /* Modules */,
 			);
 			path = Apps;
 			sourceTree = "<group>";
@@ -210,10 +210,10 @@
 		70386DBC24D9E663003F0768 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				70386E1024D9E7B8003F0768 /* Products */,
-				6A8AB01E2344292A005A5C02 /* Models */,
 				70386DF324D9E724003F0768 /* AppRouter */,
 				70386DEC24D9E717003F0768 /* Extensions */,
+				6A8AB01E2344292A005A5C02 /* Models */,
+				70386E1024D9E7B8003F0768 /* Products */,
 				70386DE924D9E6EE003F0768 /* Services */,
 			);
 			path = Common;
@@ -233,12 +233,12 @@
 			children = (
 				70386DC124D9E6A4003F0768 /* CategoryManager.swift */,
 				70386DC224D9E6A4003F0768 /* CategoryModel.swift */,
+				70386DC824D9E6A4003F0768 /* CategoryModule.swift */,
+				70386DCA24D9E6A4003F0768 /* CategoryRouter.swift */,
+				70386DC924D9E6A4003F0768 /* CategoryViewController.swift */,
+				70386DCB24D9E6A4003F0768 /* CategoryViewController.xib */,
 				70386DC324D9E6A4003F0768 /* CategoryViewModel.swift */,
 				70386DC424D9E6A4003F0768 /* Subviews */,
-				70386DC824D9E6A4003F0768 /* CategoryModule.swift */,
-				70386DC924D9E6A4003F0768 /* CategoryViewController.swift */,
-				70386DCA24D9E6A4003F0768 /* CategoryRouter.swift */,
-				70386DCB24D9E6A4003F0768 /* CategoryViewController.xib */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -263,14 +263,14 @@
 		70386DCC24D9E6A4003F0768 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				70386DCD24D9E6A4003F0768 /* HomeViewModel.swift */,
-				70386DCE24D9E6A4003F0768 /* HomeViewController.xib */,
-				70386DCF24D9E6A4003F0768 /* HomeViewController.swift */,
-				70386DD024D9E6A4003F0768 /* Subviews */,
-				70386DD324D9E6A4003F0768 /* HomeRouter.swift */,
-				70386DD424D9E6A4003F0768 /* HomeModel.swift */,
 				70386DD524D9E6A4003F0768 /* HomeManager.swift */,
+				70386DD424D9E6A4003F0768 /* HomeModel.swift */,
 				70386DD624D9E6A4003F0768 /* HomeModule.swift */,
+				70386DD324D9E6A4003F0768 /* HomeRouter.swift */,
+				70386DCF24D9E6A4003F0768 /* HomeViewController.swift */,
+				70386DCE24D9E6A4003F0768 /* HomeViewController.xib */,
+				70386DCD24D9E6A4003F0768 /* HomeViewModel.swift */,
+				70386DD024D9E6A4003F0768 /* Subviews */,
 			);
 			path = Home;
 			sourceTree = "<group>";
