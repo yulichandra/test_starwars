@@ -110,15 +110,14 @@ extension CategoryViewModel {
     }
 
     private func fetchCategory<T: Codable>(by entity: T.Type, request: CategoryModel.Request, completion: @escaping ([T]?) -> Void) {
-        manager.processFetchCategory(model: request) { [weak self] (result: Result<BaseEntity<T>, AFError>) in
+        manager.processFetchCategory(model: request) { [weak self] (result: AResult<BaseEntity<T>, GeneralError>) in
             switch result {
             case .success(let data):
                 completion(data.results)
-            case .failure:
-                completion(nil)
+                self?.onSuccessFetchingCategorySubject.send()
+            case .failure(let error):
+                print("ERROR MESSAGE: ", error.message)
             }
-
-            self?.onSuccessFetchingCategorySubject.send()
         }
     }
 }

@@ -9,7 +9,7 @@
 import Alamofire
 import Foundation
 
-enum AllService: IApiClient {
+enum AllService: IApiService {
     case categories
     case category(model: CategoryModel.Request)
 
@@ -18,7 +18,7 @@ enum AllService: IApiClient {
         case .categories:
             return baseUrl
         case .category(let model):
-            return baseUrl + model.urlPath
+            return baseUrl + model.urlPath + "asdasd"
         }
     }
 

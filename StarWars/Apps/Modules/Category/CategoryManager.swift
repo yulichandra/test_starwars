@@ -13,11 +13,11 @@ import Alamofire
 import Foundation
 
 protocol ICategoryManager: class {
-    func processFetchCategory<T: Decodable>(model: CategoryModel.Request, completion: ((Result<BaseEntity<T>, AFError>) -> Void)?)
+    func processFetchCategory<T: Decodable>(model: CategoryModel.Request, completion: ((AResult<BaseEntity<T>, GeneralError>) -> Void)?)
 }
 
 class CategoryManager: ICategoryManager {
-    func processFetchCategory<T>(model: CategoryModel.Request, completion: ((Result<BaseEntity<T>, AFError>) -> Void)?) where T : Decodable {
-        ApiService.category(model: model).request(completion: completion)
+    func processFetchCategory<T>(model: CategoryModel.Request, completion: ((AResult<BaseEntity<T>, GeneralError>) -> Void)?) where T : Decodable {
+        AllService.category(model: model).request(completion: completion)
     }
 }
