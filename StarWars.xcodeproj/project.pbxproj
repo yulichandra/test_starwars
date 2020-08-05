@@ -28,7 +28,7 @@
 		70386DE424D9E6A4003F0768 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70386DD224D9E6A4003F0768 /* HomeTableViewCell.xib */; };
 		70386DE524D9E6A4003F0768 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386DD324D9E6A4003F0768 /* HomeRouter.swift */; };
 		70386DE824D9E6A4003F0768 /* HomeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386DD624D9E6A4003F0768 /* HomeModule.swift */; };
-		70386DEB24D9E6EE003F0768 /* ApiServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386DEA24D9E6EE003F0768 /* ApiServices.swift */; };
+		70386DEB24D9E6EE003F0768 /* AllService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386DEA24D9E6EE003F0768 /* AllService.swift */; };
 		70386DF024D9E717003F0768 /* Extension+Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386DED24D9E717003F0768 /* Extension+Bundle.swift */; };
 		70386DF124D9E717003F0768 /* Extension+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386DEE24D9E717003F0768 /* Extension+UIViewController.swift */; };
 		70386DF224D9E717003F0768 /* Extension+UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386DEF24D9E717003F0768 /* Extension+UIApplication.swift */; };
@@ -44,6 +44,7 @@
 		70386E0E24D9E787003F0768 /* PeopleEntityResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386E0524D9E787003F0768 /* PeopleEntityResults.swift */; };
 		70386E0F24D9E787003F0768 /* PlanetEntityResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386E0724D9E787003F0768 /* PlanetEntityResults.swift */; };
 		70386E1224D9E7B8003F0768 /* AllProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386E1124D9E7B8003F0768 /* AllProduct.swift */; };
+		70386E1424DA4C25003F0768 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386E1324DA4C25003F0768 /* NetworkService.swift */; };
 		890D67F1B476EEBD81D957A6 /* Pods_StarWars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B45BCA5D93F184F6E4C42E78 /* Pods_StarWars.framework */; };
 		9451B58CA8AE0955EC53AE85 /* Pods_StarWarsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CF943C81809CA8AA951B21 /* Pods_StarWarsTests.framework */; };
 /* End PBXBuildFile section */
@@ -87,7 +88,7 @@
 		70386DD224D9E6A4003F0768 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
 		70386DD324D9E6A4003F0768 /* HomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
 		70386DD624D9E6A4003F0768 /* HomeModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModule.swift; sourceTree = "<group>"; };
-		70386DEA24D9E6EE003F0768 /* ApiServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiServices.swift; sourceTree = "<group>"; };
+		70386DEA24D9E6EE003F0768 /* AllService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllService.swift; sourceTree = "<group>"; };
 		70386DED24D9E717003F0768 /* Extension+Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+Bundle.swift"; sourceTree = "<group>"; };
 		70386DEE24D9E717003F0768 /* Extension+UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UIViewController.swift"; sourceTree = "<group>"; };
 		70386DEF24D9E717003F0768 /* Extension+UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UIApplication.swift"; sourceTree = "<group>"; };
@@ -103,6 +104,7 @@
 		70386E0524D9E787003F0768 /* PeopleEntityResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleEntityResults.swift; sourceTree = "<group>"; };
 		70386E0724D9E787003F0768 /* PlanetEntityResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetEntityResults.swift; sourceTree = "<group>"; };
 		70386E1124D9E7B8003F0768 /* AllProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllProduct.swift; sourceTree = "<group>"; };
+		70386E1324DA4C25003F0768 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		B45BCA5D93F184F6E4C42E78 /* Pods_StarWars.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarWars.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9CF943C81809CA8AA951B21 /* Pods_StarWarsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarWarsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE5ECB43C1264B2D35950C5 /* Pods-StarWars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWars.debug.xcconfig"; path = "Target Support Files/Pods-StarWars/Pods-StarWars.debug.xcconfig"; sourceTree = "<group>"; };
@@ -281,7 +283,8 @@
 		70386DE924D9E6EE003F0768 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				70386DEA24D9E6EE003F0768 /* ApiServices.swift */,
+				70386DEA24D9E6EE003F0768 /* AllService.swift */,
+				70386E1324DA4C25003F0768 /* NetworkService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -558,7 +561,7 @@
 				70386DD724D9E6A4003F0768 /* CategoryManager.swift in Sources */,
 				6A8AAFFA2343648C005A5C02 /* AppDelegate.swift in Sources */,
 				70386E0B24D9E787003F0768 /* StarshipEntityResults.swift in Sources */,
-				70386DEB24D9E6EE003F0768 /* ApiServices.swift in Sources */,
+				70386DEB24D9E6EE003F0768 /* AllService.swift in Sources */,
 				70386E0A24D9E787003F0768 /* BaseEntity.swift in Sources */,
 				70386DF124D9E717003F0768 /* Extension+UIViewController.swift in Sources */,
 				70386DDC24D9E6A4003F0768 /* CategoryModule.swift in Sources */,
@@ -572,6 +575,7 @@
 				70386DDE24D9E6A4003F0768 /* CategoryRouter.swift in Sources */,
 				70386DF824D9E724003F0768 /* AppRoute.swift in Sources */,
 				70386DF224D9E717003F0768 /* Extension+UIApplication.swift in Sources */,
+				70386E1424DA4C25003F0768 /* NetworkService.swift in Sources */,
 				70386DE224D9E6A4003F0768 /* HomeViewController.swift in Sources */,
 				70386E0C24D9E787003F0768 /* Category.swift in Sources */,
 			);
