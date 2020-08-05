@@ -88,14 +88,14 @@ struct GeneralError {
     var data: [String: Any]?
 
     init(data: Data?, errorState: ErrorState) {
-        self.errorState = errorState
-        setData(data: data)
+        setDataError(data: data, errorState: errorState)
     }
 
-    mutating func setData(data: Data?) {
+    mutating func setDataError(data: Data?, errorState: ErrorState) {
         do {
             if let data = data, let json = try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any] {
                 self.data = json
+                self.errorState = errorState
             } else {
                 self.data = nil
                 self.errorState = .other
