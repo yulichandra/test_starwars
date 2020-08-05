@@ -40,18 +40,29 @@ extension IApiService {
             ).responseData { response in
                 debugPrint(response)
                 switch response.result {
-                case .success(let data):
+                case .success(let data):                    
                     do {
-                        let decoder = JSONDecoder()
-                        if #available(iOS 10.0, OSX 10.12, tvOS 10.0, watchOS 3.0, *) {
-                            decoder.dateDecodingStrategy = .iso8601
+                        if let statusCode = response.response?.statusCode {
+                            switch statusCode {
+                            case 200..<300:
+                                let decoder = JSONDecoder()
+                                if #available(iOS 10.0, OSX 10.12, tvOS 10.0, watchOS 3.0, *) {
+                                    decoder.dateDecodingStrategy = .iso8601
+                                }
+                                
+                                guard let _data = try? decoder.decode(BaseEntity<T>.self, from: data) else {
+                                    completion?(.failure(GeneralError(data: response.data, errorState: .other)))
+                                    return
+                                }
+                                completion?(.success(_data))
+                            default:
+                                var errorState: ErrorState = .other
+                                if let state = ErrorState(rawValue: statusCode) {
+                                    errorState = state
+                                }
+                                completion?(.failure(GeneralError(data: response.data, errorState: errorState)))
+                            }
                         }
-
-                        guard let _data = try? decoder.decode(BaseEntity<T>.self, from: data) else {
-                            completion?(.failure(GeneralError(data: response.data, errorState: .other)))
-                            return
-                        }
-                        completion?(.success(_data))
                     }
                 case .failure(let error):
                     var errorState: ErrorState = .other
