@@ -18,6 +18,6 @@ protocol ICategoryManager: class {
 
 class CategoryManager: ICategoryManager {
     func processFetchCategory<T>(model: CategoryModel.Request, completion: ((AResult<BaseEntity<T>, GeneralError>) -> Void)?) where T : Decodable {
-        AllService.category(model: model).request(completion: completion)
+        AllAPI.category(model: model).request(completion: completion)
     }
 }

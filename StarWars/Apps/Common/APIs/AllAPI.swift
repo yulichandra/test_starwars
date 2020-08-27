@@ -9,7 +9,7 @@
 import Alamofire
 import Foundation
 
-enum AllService: IApiService {
+enum AllAPI: APIService {
     case categories
     case category(model: CategoryModel.Request)
 

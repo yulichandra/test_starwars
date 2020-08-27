@@ -14,7 +14,7 @@ enum AResult<Success, Failure> {
     case failure(Failure)
 }
 
-protocol IApiService {
+protocol APIService {
     var baseUrl: String { get }
     var path: String { get }
     var method: HTTPMethod { get }
@@ -24,7 +24,7 @@ protocol IApiService {
     func request<T: Decodable>(completion: ((AResult<BaseEntity<T>, GeneralError>) -> Void)?)
 }
 
-extension IApiService {
+extension APIService {
     var baseUrl: String {
         return "https://swapi.dev/api/"
     }
