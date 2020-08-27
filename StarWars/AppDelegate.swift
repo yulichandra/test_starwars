@@ -22,7 +22,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // Setup Module
     private func setupModules() {
         AppRouter.share.modules = [
-            AllProduct.home.routePath: { HomeModule($0) },
             AllProduct.category.routePath: { CategoryModule($0) }
         ]
     }

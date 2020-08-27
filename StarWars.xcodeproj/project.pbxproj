@@ -21,13 +21,6 @@
 		70386DDD24D9E6A4003F0768 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386DC924D9E6A4003F0768 /* CategoryViewController.swift */; };
 		70386DDE24D9E6A4003F0768 /* CategoryRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386DCA24D9E6A4003F0768 /* CategoryRouter.swift */; };
 		70386DDF24D9E6A4003F0768 /* CategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70386DCB24D9E6A4003F0768 /* CategoryViewController.xib */; };
-		70386DE024D9E6A4003F0768 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386DCD24D9E6A4003F0768 /* HomeViewModel.swift */; };
-		70386DE124D9E6A4003F0768 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70386DCE24D9E6A4003F0768 /* HomeViewController.xib */; };
-		70386DE224D9E6A4003F0768 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386DCF24D9E6A4003F0768 /* HomeViewController.swift */; };
-		70386DE324D9E6A4003F0768 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386DD124D9E6A4003F0768 /* HomeTableViewCell.swift */; };
-		70386DE424D9E6A4003F0768 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70386DD224D9E6A4003F0768 /* HomeTableViewCell.xib */; };
-		70386DE524D9E6A4003F0768 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386DD324D9E6A4003F0768 /* HomeRouter.swift */; };
-		70386DE824D9E6A4003F0768 /* HomeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386DD624D9E6A4003F0768 /* HomeModule.swift */; };
 		70386DEB24D9E6EE003F0768 /* AllService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386DEA24D9E6EE003F0768 /* AllService.swift */; };
 		70386DF024D9E717003F0768 /* Extension+Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386DED24D9E717003F0768 /* Extension+Bundle.swift */; };
 		70386DF124D9E717003F0768 /* Extension+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70386DEE24D9E717003F0768 /* Extension+UIViewController.swift */; };
@@ -81,13 +74,6 @@
 		70386DC924D9E6A4003F0768 /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		70386DCA24D9E6A4003F0768 /* CategoryRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryRouter.swift; sourceTree = "<group>"; };
 		70386DCB24D9E6A4003F0768 /* CategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryViewController.xib; sourceTree = "<group>"; };
-		70386DCD24D9E6A4003F0768 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
-		70386DCE24D9E6A4003F0768 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
-		70386DCF24D9E6A4003F0768 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		70386DD124D9E6A4003F0768 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
-		70386DD224D9E6A4003F0768 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
-		70386DD324D9E6A4003F0768 /* HomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
-		70386DD624D9E6A4003F0768 /* HomeModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModule.swift; sourceTree = "<group>"; };
 		70386DEA24D9E6EE003F0768 /* AllService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllService.swift; sourceTree = "<group>"; };
 		70386DED24D9E717003F0768 /* Extension+Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+Bundle.swift"; sourceTree = "<group>"; };
 		70386DEE24D9E717003F0768 /* Extension+UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UIViewController.swift"; sourceTree = "<group>"; };
@@ -221,7 +207,6 @@
 			isa = PBXGroup;
 			children = (
 				70386DC024D9E6A4003F0768 /* Category */,
-				70386DCC24D9E6A4003F0768 /* Home */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -256,28 +241,6 @@
 				70386DC724D9E6A4003F0768 /* CategoryTableViewCell.xib */,
 			);
 			path = Cells;
-			sourceTree = "<group>";
-		};
-		70386DCC24D9E6A4003F0768 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				70386DD624D9E6A4003F0768 /* HomeModule.swift */,
-				70386DD324D9E6A4003F0768 /* HomeRouter.swift */,
-				70386DCF24D9E6A4003F0768 /* HomeViewController.swift */,
-				70386DCE24D9E6A4003F0768 /* HomeViewController.xib */,
-				70386DCD24D9E6A4003F0768 /* HomeViewModel.swift */,
-				70386DD024D9E6A4003F0768 /* Subviews */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		70386DD024D9E6A4003F0768 /* Subviews */ = {
-			isa = PBXGroup;
-			children = (
-				70386DD124D9E6A4003F0768 /* HomeTableViewCell.swift */,
-				70386DD224D9E6A4003F0768 /* HomeTableViewCell.xib */,
-			);
-			path = Subviews;
 			sourceTree = "<group>";
 		};
 		70386DE924D9E6EE003F0768 /* Services */ = {
@@ -462,9 +425,7 @@
 			files = (
 				70386DDF24D9E6A4003F0768 /* CategoryViewController.xib in Resources */,
 				70386DDB24D9E6A4003F0768 /* CategoryTableViewCell.xib in Resources */,
-				70386DE124D9E6A4003F0768 /* HomeViewController.xib in Resources */,
 				6A8AB0042343648E005A5C02 /* LaunchScreen.storyboard in Resources */,
-				70386DE424D9E6A4003F0768 /* HomeTableViewCell.xib in Resources */,
 				6A8AB0012343648E005A5C02 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -555,8 +516,6 @@
 				70386E0E24D9E787003F0768 /* PeopleEntityResults.swift in Sources */,
 				6A47D293234817B700277F99 /* APIResponses.swift in Sources */,
 				70386DF024D9E717003F0768 /* Extension+Bundle.swift in Sources */,
-				70386DE024D9E6A4003F0768 /* HomeViewModel.swift in Sources */,
-				70386DE324D9E6A4003F0768 /* HomeTableViewCell.swift in Sources */,
 				70386DF924D9E724003F0768 /* Module.swift in Sources */,
 				70386DD724D9E6A4003F0768 /* CategoryManager.swift in Sources */,
 				6A8AAFFA2343648C005A5C02 /* AppDelegate.swift in Sources */,
@@ -569,14 +528,11 @@
 				70386DDA24D9E6A4003F0768 /* CategoryTableViewCell.swift in Sources */,
 				70386DF724D9E724003F0768 /* BaseAppRouter.swift in Sources */,
 				70386DD924D9E6A4003F0768 /* CategoryViewModel.swift in Sources */,
-				70386DE524D9E6A4003F0768 /* HomeRouter.swift in Sources */,
 				70386DDD24D9E6A4003F0768 /* CategoryViewController.swift in Sources */,
-				70386DE824D9E6A4003F0768 /* HomeModule.swift in Sources */,
 				70386DDE24D9E6A4003F0768 /* CategoryRouter.swift in Sources */,
 				70386DF824D9E724003F0768 /* AppRoute.swift in Sources */,
 				70386DF224D9E717003F0768 /* Extension+UIApplication.swift in Sources */,
 				70386E1424DA4C25003F0768 /* ApiService.swift in Sources */,
-				70386DE224D9E6A4003F0768 /* HomeViewController.swift in Sources */,
 				70386E0C24D9E787003F0768 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
